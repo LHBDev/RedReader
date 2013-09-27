@@ -275,6 +275,7 @@ public final class RedditAPI {
 		});
 	}
 
+	//upvote, downvote error fixed
 	private static URI prepareActionUri(final RedditAction action, final LinkedList<NameValuePair> postFields) {
 		switch(action) {
 			case DOWNVOTE:
